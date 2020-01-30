@@ -6,7 +6,7 @@ import Router from 'next/router';
 import { withApollo } from '../lib/apollo';
 import PageChange from '../components/PageChange/PageChange';
 
-import 'assets/scss/nextjs-material-kit.scss?v=1.0.0';
+import '../assets/scss/nextjs-material-kit.scss?v=1.0.0';
 
 Router.events.on('routeChangeStart', url => {
   console.log(`Loading: ${url}`);

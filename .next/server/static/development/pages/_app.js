@@ -345,7 +345,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/CircularProgress */ "@material-ui/core/CircularProgress");
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _assets_jss_nextjs_material_kit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/jss/nextjs-material-kit */ "./assets/jss/nextjs-material-kit.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/PageChange/PageChange.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/PageChange/PageChange.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -448,7 +448,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var apollo_link_http__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(apollo_link_http__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/lib/apollo.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/lib/apollo.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -556,7 +556,7 @@ function withApollo(PageComponent, {
               }),
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 70
+                lineNumber: 71
               },
               __self: this
             }));
@@ -615,7 +615,7 @@ function createApolloClient(initialState = {}) {
     ssrMode: true,
     // Disables forceFetch on the server (so queries are only run once)
     link: new apollo_link_http__WEBPACK_IMPORTED_MODULE_5__["HttpLink"]({
-      uri: 'http://localhost:7000',
+      uri: 'https://alumninetwork.herokuapp.com',
       // Server URL (must be absolute)
       credentials: 'same-origin',
       // Additional fetch() options like `credentials` or `headers`
@@ -955,9 +955,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _lib_apollo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/apollo */ "./lib/apollo.js");
 /* harmony import */ var _components_PageChange_PageChange__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/PageChange/PageChange */ "./components/PageChange/PageChange.js");
-/* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! assets/scss/nextjs-material-kit.scss?v=1.0.0 */ "./assets/scss/nextjs-material-kit.scss?v=1.0.0");
-/* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/pages/_app.js";
+/* harmony import */ var _assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/scss/nextjs-material-kit.scss?v=1.0.0 */ "./assets/scss/nextjs-material-kit.scss?v=1.0.0");
+/* harmony import */ var _assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -977,7 +977,7 @@ next_router__WEBPACK_IMPORTED_MODULE_4___default.a.events.on('routeChangeStart',
     path: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: undefined
   }), document.getElementById('page-transition'));
@@ -1016,25 +1016,25 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_2___default.a {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 39
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 40
       },
       __self: this
     }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 41
       },
       __self: this
     }, "Alumni Network")), __jsx(Component, _extends({}, pageProps, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 43
       },
       __self: this
     })));

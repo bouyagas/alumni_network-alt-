@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1699,7 +1699,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var assets_jss_nextjs_material_kit_components_cardStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/components/cardStyle.js */ "./assets/jss/nextjs-material-kit/components/cardStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Card/Card.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Card/Card.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1774,7 +1774,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var assets_jss_nextjs_material_kit_components_cardBodyStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/components/cardBodyStyle.js */ "./assets/jss/nextjs-material-kit/components/cardBodyStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Card/CardBody.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Card/CardBody.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1843,7 +1843,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var assets_jss_nextjs_material_kit_components_cardFooterStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/components/cardFooterStyle.js */ "./assets/jss/nextjs-material-kit/components/cardFooterStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Card/CardFooter.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Card/CardFooter.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1913,7 +1913,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var assets_jss_nextjs_material_kit_components_buttonStyle_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/components/buttonStyle.js */ "./assets/jss/nextjs-material-kit/components/buttonStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/CustomButtons/Button.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/CustomButtons/Button.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2030,7 +2030,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Popper__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Popper__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! components/CustomButtons/Button.js */ "./components/CustomButtons/Button.js");
 /* harmony import */ var assets_jss_nextjs_material_kit_components_customDropdownStyle_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/components/customDropdownStyle.js */ "./assets/jss/nextjs-material-kit/components/customDropdownStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/CustomDropdown/CustomDropdown.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/CustomDropdown/CustomDropdown.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2300,7 +2300,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Input__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Input */ "@material-ui/core/Input");
 /* harmony import */ var _material_ui_core_Input__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Input__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _assets_jss_nextjs_material_kit_components_customInputStyle__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/jss/nextjs-material-kit/components/customInputStyle */ "./assets/jss/nextjs-material-kit/components/customInputStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/CustomInput/CustomInput.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/CustomInput/CustomInput.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2423,7 +2423,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_icons_Favorite__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/Favorite */ "@material-ui/icons/Favorite");
 /* harmony import */ var _material_ui_icons_Favorite__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Favorite__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _assets_jss_nextjs_material_kit_components_footerStyle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/jss/nextjs-material-kit/components/footerStyle */ "./assets/jss/nextjs-material-kit/components/footerStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Footer/Footer.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Footer/Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /*eslint-disable*/
@@ -2575,7 +2575,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Grid/GridContainer.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Grid/GridContainer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2646,7 +2646,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Grid/GridItem.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Grid/GridItem.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2737,7 +2737,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/icons/Menu */ "@material-ui/icons/Menu");
 /* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _assets_jss_nextjs_material_kit_components_headerStyle__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/jss/nextjs-material-kit/components/headerStyle */ "./assets/jss/nextjs-material-kit/components/headerStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Header/Header.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Header/Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2965,7 +2965,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CustomDropdown_CustomDropdown__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../CustomDropdown/CustomDropdown */ "./components/CustomDropdown/CustomDropdown.js");
 /* harmony import */ var _CustomButtons_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../CustomButtons/Button */ "./components/CustomButtons/Button.js");
 /* harmony import */ var _assets_jss_nextjs_material_kit_components_headerLinksStyle__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../assets/jss/nextjs-material-kit/components/headerLinksStyle */ "./assets/jss/nextjs-material-kit/components/headerLinksStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Header/HeaderLinks.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Header/HeaderLinks.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -3137,7 +3137,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var assets_jss_nextjs_material_kit_components_parallaxStyle_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/components/parallaxStyle.js */ "./assets/jss/nextjs-material-kit/components/parallaxStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/Parallax/Parallax.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/Parallax/Parallax.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -5180,7 +5180,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_img_faces_christian_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_assets_img_faces_christian_jpg__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _assets_img_faces_black_female_coder_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/img/faces/black_female_coder.jpg */ "./assets/img/faces/black_female_coder.jpg");
 /* harmony import */ var _assets_img_faces_black_female_coder_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_img_faces_black_female_coder_jpg__WEBPACK_IMPORTED_MODULE_12__);
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/pages-sections/LandingPage-Sections/TopAlumniSection.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/pages-sections/LandingPage-Sections/TopAlumniSection.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
  // nodejs library that concatenates classes
 
@@ -5631,7 +5631,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CustomInput_CustomInput__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/CustomInput/CustomInput */ "./components/CustomInput/CustomInput.js");
 /* harmony import */ var _components_CustomButtons_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/CustomButtons/Button */ "./components/CustomButtons/Button.js");
 /* harmony import */ var _assets_jss_nextjs_material_kit_pages_landingPageSections_workStyle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/jss/nextjs-material-kit/pages/landingPageSections/workStyle */ "./assets/jss/nextjs-material-kit/pages/landingPageSections/workStyle.js");
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/pages-sections/LandingPage-Sections/WorkSection.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/pages-sections/LandingPage-Sections/WorkSection.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
  // @material-ui/core components
 
@@ -5798,7 +5798,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_sections_LandingPage_Sections_WorkSection_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../pages-sections/LandingPage-Sections/WorkSection.js */ "./pages-sections/LandingPage-Sections/WorkSection.js");
 /* harmony import */ var _assets_img_cool_alumni_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/img/cool_alumni.jpg */ "./assets/img/cool_alumni.jpg");
 /* harmony import */ var _assets_img_cool_alumni_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_assets_img_cool_alumni_jpg__WEBPACK_IMPORTED_MODULE_12__);
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/pages/home.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/pages/home.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -5944,14 +5944,14 @@ function Home(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*****************************!*\
   !*** multi ./pages/home.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/pages/home.js */"./pages/home.js");
+module.exports = __webpack_require__(/*! /Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/pages/home.js */"./pages/home.js");
 
 
 /***/ }),

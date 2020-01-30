@@ -4797,7 +4797,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/.next");
       return error;
     }
   };

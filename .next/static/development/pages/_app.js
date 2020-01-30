@@ -265,7 +265,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/components/PageChange/PageChange.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/components/PageChange/PageChange.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -389,7 +389,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/lib/apollo.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/lib/apollo.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -512,7 +512,7 @@ function withApollo(PageComponent) {
                 }),
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 70
+                  lineNumber: 71
                 },
                 __self: this
               })));
@@ -583,7 +583,7 @@ function createApolloClient() {
     ssrMode: false,
     // Disables forceFetch on the server (so queries are only run once)
     link: new apollo_link_http__WEBPACK_IMPORTED_MODULE_15__["HttpLink"]({
-      uri: 'http://localhost:7000',
+      uri: 'https://alumninetwork.herokuapp.com',
       // Server URL (must be absolute)
       credentials: 'same-origin',
       // Additional fetch() options like `credentials` or `headers`
@@ -4537,7 +4537,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/index.js ***!
   \************************************************************/
-/*! exports provided: createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration */
+/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, easing, duration, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28788,8 +28788,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _lib_apollo__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../lib/apollo */ "./lib/apollo.js");
 /* harmony import */ var _components_PageChange_PageChange__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/PageChange/PageChange */ "./components/PageChange/PageChange.js");
-/* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! assets/scss/nextjs-material-kit.scss?v=1.0.0 */ "./assets/scss/nextjs-material-kit.scss?v=1.0.0");
-/* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/scss/nextjs-material-kit.scss?v=1.0.0 */ "./assets/scss/nextjs-material-kit.scss?v=1.0.0");
+/* harmony import */ var _assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_14__);
 
 
 
@@ -28797,7 +28797,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/pages/_app.js";
+var _jsxFileName = "/Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -28814,7 +28814,7 @@ next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on('routeChangeStart'
     path: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }), document.getElementById('page-transition'));
@@ -28848,25 +28848,25 @@ function (_App) {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 39
         },
         __self: this
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 40
         },
         __self: this
       }, __jsx("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 41
         },
         __self: this
       }, "Alumni Network")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 43
         },
         __self: this
       })));
@@ -28922,7 +28922,7 @@ function (_App) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/client/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/mohamedbgassama/code/knowledgeHouse/projects/alumni_network-alt/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
