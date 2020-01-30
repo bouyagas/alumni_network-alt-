@@ -17,6 +17,6 @@ const schema = makeExecutableSchema({
     tracing: true,
   });
   await connect(serverConfig.mongoDbUrl);
-  const { url } = await server.listen({ port: serverConfig.port });
+  const { url } = await server.listen({ port: process.env.PORT || serverConfig.port });
   console.log(`GQL 🚀 Gateway server ready at ${url}`);
 })();
