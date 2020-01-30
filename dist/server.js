@@ -23,9 +23,11 @@ const schema = apollo_server_1.makeExecutableSchema({
         engine: {
             apiKey: 'service:cool:ix-erT00kWKmu5EMxTAypw',
         },
+        introspection: true,
         schema,
         subscriptions: false,
         tracing: true,
+        playground: true,
     });
     yield db_1.connect(serverConfig_1.serverConfig.mongoDbUrl);
     const { url } = yield server.listen({ port: process.env.PORT || serverConfig_1.serverConfig.port });

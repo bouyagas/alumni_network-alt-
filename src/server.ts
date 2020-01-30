@@ -15,9 +15,11 @@ const schema = makeExecutableSchema({
     engine: {
       apiKey: 'service:cool:ix-erT00kWKmu5EMxTAypw',
     },
+    introspection: true,
     schema,
     subscriptions: false,
     tracing: true,
+    playground: true,
   });
   await connect(serverConfig.mongoDbUrl);
   const { url } = await server.listen({ port: process.env.PORT || serverConfig.port });
