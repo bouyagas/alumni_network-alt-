@@ -12,6 +12,9 @@ const schema = makeExecutableSchema({
 (async () => {
   const server = new ApolloServer({
     context: ({ req }) => ({ req }),
+    engine: {
+      apiKey: 'service:cool:ix-erT00kWKmu5EMxTAypw',
+    },
     schema,
     subscriptions: false,
     tracing: true,

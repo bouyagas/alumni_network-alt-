@@ -20,12 +20,15 @@ const schema = apollo_server_1.makeExecutableSchema({
 (() => __awaiter(void 0, void 0, void 0, function* () {
     const server = new apollo_server_1.ApolloServer({
         context: ({ req }) => ({ req }),
+        engine: {
+            apiKey: 'service:cool:ix-erT00kWKmu5EMxTAypw',
+        },
         schema,
         subscriptions: false,
         tracing: true,
     });
     yield db_1.connect(serverConfig_1.serverConfig.mongoDbUrl);
-    const { url } = yield server.listen({ port: serverConfig_1.serverConfig.port });
+    const { url } = yield server.listen({ port: process.env.PORT || serverConfig_1.serverConfig.port });
     console.log(`GQL 🚀 Gateway server ready at ${url}`);
 }))();
 //# sourceMappingURL=server.js.map
