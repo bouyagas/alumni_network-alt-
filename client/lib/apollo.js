@@ -29,7 +29,8 @@ export function withApollo(PageComponent, { ssr = true } = {}) {
 
   // Set the correct displayName in development
   if (process.env.NODE_ENV !== 'production') {
-    const displayName = PageComponent.displayName || PageComponent.name || 'Component';
+    const displayName =
+      PageComponent.displayName || PageComponent.name || 'Component';
 
     if (displayName === 'App') {
       console.warn('This withApollo HOC only works with PageComponents.');
@@ -70,7 +71,7 @@ export function withApollo(PageComponent, { ssr = true } = {}) {
               <AppTree
                 pageProps={{
                   ...pageProps,
-                  apolloClient,
+                  apolloClient
                 }}
               />
             );
@@ -92,7 +93,7 @@ export function withApollo(PageComponent, { ssr = true } = {}) {
 
       return {
         ...pageProps,
-        apolloState,
+        apolloState
       };
     };
   }
@@ -129,7 +130,7 @@ function createApolloClient(initialState = {}) {
   return new ApolloClient({
     ssrMode: typeof window === 'undefined', // Disables forceFetch on the server (so queries are only run once)
     link: new HttpLink({
-      uri: 'http://localhost:7000', // Server URL (must be absolute)
+      uri: 'https://alumninetwork.herokuapp.com/', // Server URL (must be absolute)
       credentials: 'same-origin', // Additional fetch() options like `credentials` or `headers`
       fetch,
       request: async operation => {
@@ -139,12 +140,12 @@ function createApolloClient(initialState = {}) {
         // Pass token to headers
         operation.setContext({
           headers: {
-            Authorization: token ? `Bearer ${token}` : '',
-          },
+            Authorization: token ? `Bearer ${token}` : ''
+          }
         });
-      },
+      }
     }),
 
-    cache: new InMemoryCache().restore(initialState),
+    cache: new InMemoryCache().restore(initialState)
   });
 }
